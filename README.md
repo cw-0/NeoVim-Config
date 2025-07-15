@@ -28,7 +28,7 @@ nvim
 
 # Step 5: Quit NeoVim
 ```
-sudo reboot now
+
 ```
 # Step 6: Run again and Verify Working Install
 ```
