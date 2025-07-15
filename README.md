@@ -19,7 +19,7 @@ nvim
 ```
 # Step 4: Install Plugins and Tools
 * Hold shift and press Q
-Run:
+* Run:
 ```
   :MasonInstallAll
   :Lazy sync
