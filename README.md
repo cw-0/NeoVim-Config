@@ -24,6 +24,7 @@ nvim
   :MasonInstallAll
   :Lazy sync
   :TSUpdate
+  :TSInstall python
 ```
 
 # Step 5: Quit NeoVim
