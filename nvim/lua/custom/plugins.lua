@@ -79,6 +79,7 @@ local plugins = {
         "codelldb",
         "mypy",
         "pyright",
+        "lua-language-server",
       }
     }
   }
