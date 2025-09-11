@@ -23,7 +23,9 @@ Run:
 ```
   :MasonInstallAll
   :Lazy sync
+  :PlugInstall nvim-treesitter
   :TSUpdate
+  :TSInstall python
 ```
 
 # Step 5: Quit NeoVim
