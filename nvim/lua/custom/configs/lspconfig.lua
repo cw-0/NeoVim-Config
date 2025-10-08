@@ -32,6 +32,8 @@ lspconfig.clangd.setup {
     "--compile-commands-dir=.",
     "--query-driver=/usr/bin/clang++",
   },
+  filetypes = {"c", "cpp", "objc", "objcpp" },
+  root_dir = require('lspconfig.util').root_pattern("compile_commands.json", "CMakeLists.txt", ".git"),
   init_options = {
     compilationDatabasePath = ".",
     fallbackFlags = { "-std=c++20", "-Wall", "-I." },

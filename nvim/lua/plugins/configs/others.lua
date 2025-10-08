@@ -1,6 +1,14 @@
 local M = {}
 local utils = require "core.utils"
 
+M.cmake = {
+  'Civitasv/cmake-tools.nvim',
+  config = function()
+    require('cmake-tools').setup{
+    
+    }
+  end,
+}
 M.blankline = {
   indentLine_enabled = 1,
   filetype_exclude = {
