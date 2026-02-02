@@ -82,6 +82,18 @@ local plugins = {
         "lua-language-server",
       }
     }
+  },
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreview", "MarkdownPreviewStop" }, -- load only on command
+    build = function()
+      -- call install only after the plugin is loaded
+      vim.fn["mkdp#util#install"]()
+    end,
+    init = function()
+      vim.g.mkdp_theme = "dark"
+    end,
+    ft = { "markdown" }, -- optional: load only for markdown files
   }
 }
 
