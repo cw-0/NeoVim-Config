@@ -5,7 +5,7 @@ Set your terminal font to any [Nerd Font](https://www.nerdfonts.com/font-downloa
 
 ## Step 1: Install NeoVim and Python Support 
 ```
-sudo dnf install neovim python3 python3-pip git curl rigrep fd-find python3-neovim
+sudo dnf install neovim python3 python3-pip git curl ripgrep fd-find python3-neovim
 pip3 install pynvim
 ```
 # Step 2: Download Config File.
