@@ -12,6 +12,11 @@ Before installing this configuration, ensure your terminal is set up with a Nerd
 
 > Browse all available Nerd Fonts at [nerdfonts.com](https://www.nerdfonts.com/font-downloads)
 
+<br>
+
+Personal PS1
+<br>↳ ```export PS1="\[\e[38;5;39m\]\u@\h \[\e[38;5;226m\]\w \[\e[0m\]\n\[\e[38;5;81m\]\$(if [[ \$EUID -eq 0 ]]; then echo '╰#>'; else echo '╰─>'; fi) \[\e[0m\]"```
+
 ---
 
 ## Installation
