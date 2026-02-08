@@ -23,5 +23,9 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.opt.tabstop = 8      -- Tab width
+vim.opt.shiftwidth = 8   -- Indent width
+vim.opt.softtabstop = 8  -- How many spaces a <Tab> counts for
+
 require "lazy_setup"
 require "polish"
